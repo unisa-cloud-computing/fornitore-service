@@ -37,7 +37,7 @@ public class DataSourceConfig {
 
         return builder
                 .dataSource(catalogDataSource)
-                .packages("com.poultryfarm.fornitoreservice")
+                .packages("unisa.poultryfarm.fornitoreservice")
                 .properties(props)
                 .build();
     }
